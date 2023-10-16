@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --primary-color: #31a8dd;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: black;
+}
+
+body * {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(49, 168, 221, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(/assets/images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+header img {
+  margin-top: 5.6rem;
+  width: 26.8rem;
+  border-radius: 26.8rem;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Raleway", sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 1.4rem 0;
+}
+
+header p {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  width: 510px;
+}
+
+header button {
+  width: max-content;
+  padding: 1.9rem 8rem;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+  background-color: #ffffff00;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  margin: 2.2rem 0 7.3rem;
+}
+
+header button:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#course-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2.4rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+#course-content h2,
+#professional-challenges h2 {
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 6.08px;
+  margin-top: 10rem;
+  text-transform: uppercase;
+}
+
+#professional-challenges h2 {
+  width: 74rem;
+  margin: 10rem auto 0;
+}
+
+#course-content p,
+#professional-challenges p {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+  width: 79rem;
+  margin: 0 auto;
+}
+
+#professional-challenges p {
+  margin-bottom: 9rem;
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.module {
+  width: 60rem;
+  border-radius: 50rem;
+  border: 2px solid var(--primary-color);
+  padding: 1.6rem 10rem;
+  background: #252525;
+  color: #fff;
+  font-size: 1.4rem;
+  box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
+}
+
+.module span {
+  color: var(--primary-color);
+}
+
+.module:last-child {
+  margin-bottom: 10rem;
+}
+
+#transform-world {
+  background-image: url(/assets/images/woman-code.png);
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 2px solid var(--primary-color);
+  padding: 18rem;
+}
+
+#transform-world p {
+  color: #fff;
+  text-shadow: 3px 2px 0px #33a8db;
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: lowercase;
+  width: 25rem;
+}
+
+#professional-challenges {
+  border-bottom: 2px solid var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#professional-challenges img {
+  margin: 3.2rem auto 4rem;
+}
+
+footer {
+  background-image: linear-gradient(
+    rgba(50, 168, 219, 0),
+    rgba(50, 168, 219, 0.2)
+  );
+  text-align: center;
+  padding: 6rem 0 4rem;
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 700;
+}
